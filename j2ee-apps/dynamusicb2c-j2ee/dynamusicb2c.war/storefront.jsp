@@ -38,6 +38,7 @@
                             <dsp:a href="<%=templateURL%>">
                                 <dsp:valueof param="element.displayName"/>
                                 <dsp:param name="itemId" param="element.repositoryId"/>
+                          <dsp:param name="navAction" value="jump"/>
                             </dsp:a>
                         </dsp:getvalueof>
                     </dsp:oparam>
